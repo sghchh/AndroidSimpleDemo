@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SqliteDemo</string>
+    <string name="table_name">记事本</string>
+    <string name="add_content">请输入文字</string>
+    <string name="cancle_btn">取消</string>
+    <string name="sure_btn">确定</string>
+    <string name="title">提示</string>
+    <string name="message">是否删除？</string>
+    <string name="no">返回</string>
+    <string name="yes">保存</string>
+</resources>
