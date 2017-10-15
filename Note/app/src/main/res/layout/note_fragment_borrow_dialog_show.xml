@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/note_fragment_borrow_dialog_show_bookname0"
+        android:text="书名:"
+        android:layout_width="38dp"
+        android:layout_height="48dp" />
+    <TextView
+        android:id="@+id/note_fragment_borrow_dialog_show_bookname"
+        android:layout_alignTop="@id/note_fragment_borrow_dialog_show_bookname0"
+        android:layout_toRightOf="@id/note_fragment_borrow_dialog_show_bookname0"
+        android:layout_toEndOf="@id/note_fragment_borrow_dialog_show_bookname0"
+        android:layout_width="140dp"
+        android:layout_height="48dp" />
+    <TextView
+        android:layout_below="@id/note_fragment_borrow_dialog_show_bookname0"
+        android:id="@+id/note_fragment_borrow_dialog_show_name0"
+        android:text="借书人:"
+        android:layout_width="48dp"
+        android:layout_height="48dp" />
+    <TextView
+        android:id="@+id/note_fragment_borrow_dialog_show_name"
+        android:layout_alignTop="@id/note_fragment_borrow_dialog_show_name0"
+        android:layout_toEndOf="@id/note_fragment_borrow_dialog_show_name0"
+        android:layout_toRightOf="@id/note_fragment_borrow_dialog_show_name0"
+        android:layout_width="130dp"
+        android:layout_height="48dp" />
+    <TextView
+        android:layout_below="@id/note_fragment_borrow_dialog_show_name0"
+        android:id="@+id/note_fragment_borrow_dialog_show_date0"
+        android:text="预计归还日期:"
+        android:layout_width="88dp"
+        android:layout_height="48dp" />
+    <TextView
+        android:id="@+id/note_fragment_borrow_dialog_show_date"
+        android:layout_alignTop="@id/note_fragment_borrow_dialog_show_date0"
+        android:layout_toRightOf="@id/note_fragment_borrow_dialog_show_date0"
+        android:layout_toEndOf="@id/note_fragment_borrow_dialog_show_date0"
+        android:layout_width="90dp"
+        android:layout_height="48dp" />
+
+</RelativeLayout>

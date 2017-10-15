@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="140dp"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/note_fragment_borrow_dialog_add_name0"
+        android:text="借书人:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/note_fragment_borrow_dialog_add_name"
+        android:hint="姓名不能为空"
+        android:layout_below="@id/note_fragment_borrow_dialog_add_name0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/note_fragment_borrow_dialog_add_bookname0"
+        android:layout_below="@id/note_fragment_borrow_dialog_add_name"
+        android:text="书名:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/note_fragment_borrow_dialog_add_bookname"
+        android:layout_below="@id/note_fragment_borrow_dialog_add_bookname0"
+        android:hint="书名不能为空"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/note_fragment_borrow_dialog_add_date0"
+        android:layout_below="@id/note_fragment_borrow_dialog_add_bookname"
+        android:text="预计归还日期"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/note_fragment_borrow_dialog_add_date"
+        android:layout_below="@id/note_fragment_borrow_dialog_add_date0"
+        android:hint="内容不能为空"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
